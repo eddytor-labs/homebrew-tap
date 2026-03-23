@@ -15,3 +15,4 @@ scoop install eddytor
 Manual installation
 
 Download binaries directly from https://github.com/eddytor-labs/eddytor-cli/releases.
+```
