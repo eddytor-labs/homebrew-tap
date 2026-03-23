@@ -1,20 +1,17 @@
-# Eddytor CLI — Homebrew Tap & Scoop Bucket
+# Eddytor Homebrew Tap
 
-Official package manager formulae for the [Eddytor CLI](https://github.com/eddytor-labs/eddytor-cli).
+  Official [Homebrew](https://brew.sh) tap for the [Eddytor CLI](https://github.com/eddytor-labs/eddytor-cli).
 
-## Homebrew (macOS / Linux)
+  ## Installation
 
-```bash
-brew install eddytor-labs/tap/eddytor
-```
+  ```bash
+  brew install eddytor-labs/tap/eddytor
 
-## Scoop (Windows)
+  Upgrade
 
-```
-scoop bucket add eddytor https://github.com/eddytor-labs/homebrew-tap
-scoop install eddytor
+  brew upgrade eddytor
 
-Manual installation
+  Uninstall
 
-Download binaries directly from https://github.com/eddytor-labs/eddytor-cli/releases.
-```
+  brew uninstall eddytor
+  brew untap eddytor-labs/tap
