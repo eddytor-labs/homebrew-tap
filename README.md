@@ -6,9 +6,11 @@ Official package manager formulae for the [Eddytor CLI](https://github.com/eddyt
 
 ```bash
 brew install eddytor-labs/tap/eddytor
+```
 
-Scoop (Windows)
+## Scoop (Windows)
 
+```
 scoop bucket add eddytor https://github.com/eddytor-labs/homebrew-tap
 scoop install eddytor
 
