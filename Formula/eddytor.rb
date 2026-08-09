@@ -1,21 +1,21 @@
 class Eddytor < Formula
   desc "Eddytor CLI — query, manage, and explore Delta Lake tables"
   homepage "https://eddytor.com"
-  version "2.7.4"
+  version "2.7.5"
   license "Proprietary"
 
   on_macos do
-    url "https://github.com/eddytor-labs/eddytor-cli/releases/download/v2.7.4/eddytor-2.7.4-aarch64-apple-darwin.tar.gz"
-    sha256 "b272c3084a800ca37f0dba4d366283bb0178b11e5c3cd92a26912f8f24708a44"
+    url "https://github.com/eddytor-labs/eddytor-cli/releases/download/v2.7.5/eddytor-2.7.5-aarch64-apple-darwin.tar.gz"
+    sha256 "c088b686de0b7cbffeb73f3539705966b46dd3d287987b3b543d165ef966aa60"
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/eddytor-labs/eddytor-cli/releases/download/v2.7.4/eddytor-2.7.4-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "262d4642f6bbe3dbbf404e7ad6314501d284500869f57454245c2f3979a9a4a2"
+      url "https://github.com/eddytor-labs/eddytor-cli/releases/download/v2.7.5/eddytor-2.7.5-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "7c722593167037f7a789fb4d651924e765c495e34ba0dd5a91dad3535bada0ff"
     else
-      url "https://github.com/eddytor-labs/eddytor-cli/releases/download/v2.7.4/eddytor-2.7.4-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d43e220d79d5c7e642d08d6d0ab90fe1152420005400d3d02d725f43e23d2bc7"
+      url "https://github.com/eddytor-labs/eddytor-cli/releases/download/v2.7.5/eddytor-2.7.5-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "3685f46e1e191bd0184880179597e4ed1b0560dc530467c9920b5d6c65aa4b4e"
     end
   end
 
