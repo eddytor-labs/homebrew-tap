@@ -1,12 +1,12 @@
 {
-  "version": "2.8.1",
+  "version": "2.8.2",
   "description": "Eddytor CLI — query, manage, and explore Delta Lake tables",
   "homepage": "https://eddytor.com",
   "license": "Proprietary",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/eddytor-labs/eddytor-cli/releases/download/v2.8.1/eddytor-2.8.1-x86_64-pc-windows-msvc.zip",
-      "hash": "3edbe4e128f472ea427d307cc430aeaffd25c02d01c3ef8482667baea9a23e07",
+      "url": "https://github.com/eddytor-labs/eddytor-cli/releases/download/v2.8.2/eddytor-2.8.2-x86_64-pc-windows-msvc.zip",
+      "hash": "a4f9ed4f07c25dc208e9822959431f4a0caf27fe0e475502f0b044ea562ff51c",
       "bin": "eddytor.exe"
     }
   },
